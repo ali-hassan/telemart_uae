@@ -193,3 +193,16 @@ gem 'cocoon', '~> 1.2.15'
 gem 'fast-polylines', '~> 2.2.2'
 gem 'codemirror-rails', '~> 0.3.1'
 gem 'rb-inotify', '~> 0.10', require: false
+group :deployment do
+  gem "capistrano", "=3.11"
+  gem 'capistrano3-delayed-job', '~> 1.0'
+  gem 'capistrano-ssh-doctor', '~> 1.0'
+  gem 'capistrano-rvm'
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
+  gem 'capistrano-npm'
+  # Gems needs to work with capistrano.
+  gem 'ed25519', '~> 1.2'
+  gem 'bcrypt_pbkdf', '~> 1'
+end
