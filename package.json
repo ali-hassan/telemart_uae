@@ -12,6 +12,7 @@
     "client/node_modules"
   ],
   "dependencies": {
-    "check-node-version": "^4.2.1"
+    "check-node-version": "^4.2.1",
+    "react-on-rails": "13.3.1"
   }
 }
