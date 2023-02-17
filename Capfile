@@ -26,7 +26,7 @@ install_plugin Capistrano::SCM::Git
 #   https://github.com/capistrano/rails
 #   https://github.com/capistrano/passenger
 require 'capistrano/rvm'
-#require 'capistrano/bundler'
+require 'capistrano/bundler'
 require 'capistrano/ssh_doctor'
 
 require 'capistrano/rails/assets'
