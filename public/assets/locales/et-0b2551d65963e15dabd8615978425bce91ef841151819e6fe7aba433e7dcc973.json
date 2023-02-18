@@ -1,0 +1,30 @@
+{
+  "please_wait": "Palun oota ...",
+  "validation_messages": {
+    "accept": "Fail peab olema ühes järgnevatest formaatidest: GIF, JPG või PNG.",
+    "creditcard": "Palun sisesta kehtiv pangakaart.",
+    "date": "Palun sisesta kehtiv kuupäev.",
+    "dateISO": "Palun sisesta kehtiv kuupäev (ISO).",
+    "digits": "Palun sisesta ainult numbrid.",
+    "email": "Palun sisesta kehtiv e-posti aadress.",
+    "equalTo": "Palun sisesta sama väärtus uuesti.",
+    "max": "Palun sisesta väärtus, mis on väiksem või võrdne {0}.",
+    "maxlength": "Palun ära sisesta rohkem kui {0} tähemärki.",
+    "min": "Palun sisesta väärtus, mis on suurem või võrdne {0}.",
+    "minlength": "Palun sisesta vähemalt {0} tähemärki.",
+    "number": "Palun sisesta kehtiv number.",
+    "range": "Palun sisesta väärtus vahemikus {0} ja {1}.",
+    "rangelength": "Palun sisesta tähemärke vahemikus {0} ja {1}.",
+    "remote": "Palun paranda see väli.",
+    "required": "See väli on nõutav.",
+    "url": "Palun sisesta kehtiv URL.",
+    "address_validator": "Seda asukohta ei leitud.",
+    "money": "Pead sisestama kehtiva rahalise väärtuse.",
+    "night_selected": "Pead valima vähemalt ühe öö",
+    "availability_range": "Osa valitud vahemiku kuupäevi pole saadaval",
+    "min_bound": "Palun sisesta maksimaalsest väiksem väärtus ({0})",
+    "max_bound": "Palun sisesta minimaalsest suurem väärtus ({0})",
+    "number_no_decimals": "Palun sisesta täisarv",
+    "number_decimals": "Palun sisesta kehtiv number kasutades punkti (.) või koma (,) kümnendkoha eraldajana"
+  }
+}
