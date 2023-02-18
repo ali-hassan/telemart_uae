@@ -1,0 +1,15 @@
+{
+  "name": "i18n-js",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jasmine-node": "*"
+  },
+  "main": "app/assets/javascripts/i18n.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fnando/i18n-js.git"
+  }
+}
