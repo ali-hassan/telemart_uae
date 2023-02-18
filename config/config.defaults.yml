@@ -501,7 +501,7 @@ production: &production_settings
 
   eager_load: true
 
-  active_storage_service: amazon
+  active_storage_service: local
 
   log_level: INFO
   stripe_private_key_pattern: "\\Ask_live_.{24,200}\\z"
