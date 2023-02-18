@@ -3,7 +3,7 @@ ask :branch, "master"
 
 server 'ubuntu@3.28.163.187', user: 'ubuntu', roles: %w{web app db}, my_property: :my_value
 
-server '3.29.62.54',
+server '3.28.163.187',
        user: 'ubuntu',
        roles: %w{web app db},
        ssh_options: {
