@@ -2,6 +2,7 @@ class FooterPresenter < MemoisticPresenter
   attr_reader :community, :plan, :locale
 
   def initialize(community, plan)
+    plan[:features][:footer] = true
     @community = community
     @plan = plan
     @locale = I18n.locale

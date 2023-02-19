@@ -2,6 +2,7 @@ class Admin2::FooterService
   attr_reader :community, :params, :plan
 
   def initialize(community:, params:, plan:)
+    plan[:features][:footer] = true
     @params = params
     @community = community
     @plan = plan
