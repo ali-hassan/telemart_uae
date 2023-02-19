@@ -3,6 +3,7 @@ module TransactionService::AvailableCurrencies
   # This list maps country codes to the best guess default currency to use
   # In a marketplace based on that country. For the others, it's USD
   COUNTRY_CURRENCIES = {
+      "AE" => "AED",
       "AR" => "ARS",
       "AU" => "AUD",
       "KI" => "AUD",
@@ -95,7 +96,7 @@ module TransactionService::AvailableCurrencies
   # Romania
   # Cyprus, Malta, Bulgaria
   # Hungary
-  COUNTRY_SET_STRIPE_AND_PAYPAL = ['AT', 'BE', 'DK', 'FI', 'FR', 'DE', 'IE', 'LU', 'NL', 'NO', 'ES', 'SE', 'CH', 'GB', 'US',
+  COUNTRY_SET_STRIPE_AND_PAYPAL = ['AE', 'AT', 'BE', 'DK', 'FI', 'FR', 'DE', 'IE', 'LU', 'NL', 'NO', 'ES', 'SE', 'CH', 'GB', 'US',
                                    'AU', 'CA', 'HK', 'NZ',
                                    'PT', 'IT',
                                    'PR', 'JP', 'SG',
@@ -112,6 +113,7 @@ module TransactionService::AvailableCurrencies
   COUNTRY_SET_PAYPAL_ONLY = ISO3166::Country.all.map{|c| c.alpha2}
 
   VALID_CURRENCIES = {
+    "AED" => :country_sets,
     "ARS" => :country_sets,
     "AUD" => :country_sets,
     "BGN" => :country_sets,
