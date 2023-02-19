@@ -5,10 +5,10 @@ production:
     username: telemart # ADD DATABASE USERNAME
     password: Password1* # ADD DATABASE PASSWORD
     host: localhost
-#development:
-#    adapter: mysql2
-#    database: pdx_dev  ##pdx_production
-#    encoding: utf8
-#    username: ali # ADD DATABASE USERNAME
-#    password: password # ADD DATABASE PASSWORD
-#    host: localhost
+development:
+    adapter: mysql2
+    database: telemart_dev  ##pdx_production
+    encoding: utf8
+    username: telemart # ADD DATABASE USERNAME
+    password: Password1* # ADD DATABASE PASSWORD
+    host: localhost

@@ -1,0 +1,512 @@
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+[3056] Puma starting in cluster mode...
+[3056] * Puma version: 5.6.5 (ruby 2.7.5-p203) ("Birdie's Version")
+[3056] *  Min threads: 4
+[3056] *  Max threads: 16
+[3056] *  Environment: production
+[3056] *   Master PID: 3056
+[3056] *      Workers: 3
+[3056] *     Restarts: (✔) hot (✖) phased
+[3056] * Preloading application
+[3056] * Listening on unix:///tmp/puma.sock
+[3056] Use Ctrl-C to stop
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+A server is already running. Check /home/ubuntu/www/var/marketplace/telemart_uae/tmp/pids/server.pid.
+Exiting
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+[3175] Puma starting in cluster mode...
+[3175] * Puma version: 5.6.5 (ruby 2.7.5-p203) ("Birdie's Version")
+[3175] *  Min threads: 4
+[3175] *  Max threads: 16
+[3175] *  Environment: production
+[3175] *   Master PID: 3175
+[3175] *      Workers: 3
+[3175] *     Restarts: (✔) hot (✖) phased
+[3175] * Preloading application
+[3175] * Listening on unix:///tmp/puma.sock
+[3175] Use Ctrl-C to stop
+/home/ubuntu/.rvm/bin/rvmsudo: line 81:  3174 Killed                  sudo /usr/bin/env rvm_bin_path=/home/ubuntu/.rvm/bin rvm_version=1.29.12 (latest) RUBY_VERSION=ruby-2.7.5 GEM_HOME=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart GEM_PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart:/home/ubuntu/.rvm/gems/ruby-2.7.5@global rvm_path=/home/ubuntu/.rvm rvm_prefix=/home/ubuntu MY_RUBY_HOME=/home/ubuntu/.rvm/rubies/ruby-2.7.5 PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/bin:/home/ubuntu/.rvm/gems/ruby-2.7.5@global/bin:/home/ubuntu/.rvm/rubies/ruby-2.7.5/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin IRBRC=/home/ubuntu/.rvm/rubies/ruby-2.7.5/.irbrc rails server
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+[3389] Puma starting in cluster mode...
+[3389] * Puma version: 5.6.5 (ruby 2.7.5-p203) ("Birdie's Version")
+[3389] *  Min threads: 4
+[3389] *  Max threads: 16
+[3389] *  Environment: production
+[3389] *   Master PID: 3389
+[3389] *      Workers: 3
+[3389] *     Restarts: (✔) hot (✖) phased
+[3389] * Preloading application
+[3389] * Listening on unix:///tmp/puma.sock
+[3389] Use Ctrl-C to stop
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require': Interrupt
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:332:in `block in require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:299:in `load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:332:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/terrapin-0.6.0/lib/terrapin.rb:5:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:332:in `block in require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:299:in `load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:332:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/paperclip-6.1.0/lib/paperclip.rb:70:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ubuntu/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0/bundler/runtime.rb:74:in `block (2 levels) in require'
+	from /home/ubuntu/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0/bundler/runtime.rb:69:in `each'
+	from /home/ubuntu/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0/bundler/runtime.rb:69:in `block in require'
+	from /home/ubuntu/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0/bundler/runtime.rb:58:in `each'
+	from /home/ubuntu/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0/bundler/runtime.rb:58:in `require'
+	from /home/ubuntu/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0/bundler.rb:174:in `require'
+	from /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:332:in `block in require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:299:in `load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:332:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/railties-6.1.7.2/lib/rails/commands/server/server_command.rb:138:in `block in perform'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/railties-6.1.7.2/lib/rails/commands/server/server_command.rb:135:in `tap'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/railties-6.1.7.2/lib/rails/commands/server/server_command.rb:135:in `perform'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/railties-6.1.7.2/lib/rails/command/base.rb:69:in `perform'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/railties-6.1.7.2/lib/rails/command.rb:48:in `invoke'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/railties-6.1.7.2/lib/rails/commands.rb:18:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/bootsnap-1.4.9/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:332:in `block in require'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:299:in `load_dependency'
+	from /home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/gems/activesupport-6.1.7.2/lib/active_support/dependencies.rb:332:in `require'
+	from bin/rails:4:in `<main>'
+/home/ubuntu/.rvm/bin/rvmsudo: line 81:  3388 Killed                  sudo /usr/bin/env rvm_bin_path=/home/ubuntu/.rvm/bin rvm_version=1.29.12 (latest) RUBY_VERSION=ruby-2.7.5 GEM_HOME=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart GEM_PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart:/home/ubuntu/.rvm/gems/ruby-2.7.5@global rvm_path=/home/ubuntu/.rvm rvm_prefix=/home/ubuntu MY_RUBY_HOME=/home/ubuntu/.rvm/rubies/ruby-2.7.5 PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/bin:/home/ubuntu/.rvm/gems/ruby-2.7.5@global/bin:/home/ubuntu/.rvm/rubies/ruby-2.7.5/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin IRBRC=/home/ubuntu/.rvm/rubies/ruby-2.7.5/.irbrc rails server
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+[4283] Puma starting in cluster mode...
+[4283] * Puma version: 5.6.5 (ruby 2.7.5-p203) ("Birdie's Version")
+[4283] *  Min threads: 4
+[4283] *  Max threads: 16
+[4283] *  Environment: production
+[4283] *   Master PID: 4283
+[4283] *      Workers: 3
+[4283] *     Restarts: (✔) hot (✖) phased
+[4283] * Preloading application
+[4283] * Listening on unix:///tmp/puma.sock
+[4283] Use Ctrl-C to stop
+/home/ubuntu/.rvm/bin/rvmsudo: line 81:  4282 Killed                  sudo /usr/bin/env rvm_bin_path=/home/ubuntu/.rvm/bin rvm_version=1.29.12 (latest) RUBY_VERSION=ruby-2.7.5 GEM_HOME=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart GEM_PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart:/home/ubuntu/.rvm/gems/ruby-2.7.5@global rvm_path=/home/ubuntu/.rvm rvm_prefix=/home/ubuntu MY_RUBY_HOME=/home/ubuntu/.rvm/rubies/ruby-2.7.5 PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/bin:/home/ubuntu/.rvm/gems/ruby-2.7.5@global/bin:/home/ubuntu/.rvm/rubies/ruby-2.7.5/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin IRBRC=/home/ubuntu/.rvm/rubies/ruby-2.7.5/.irbrc rails server
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+[5261] Puma starting in cluster mode...
+[5261] * Puma version: 5.6.5 (ruby 2.7.5-p203) ("Birdie's Version")
+[5261] *  Min threads: 4
+[5261] *  Max threads: 16
+[5261] *  Environment: production
+[5261] *   Master PID: 5261
+[5261] *      Workers: 3
+[5261] *     Restarts: (✔) hot (✖) phased
+[5261] * Preloading application
+[5261] * Listening on unix:///tmp/puma.sock
+[5261] Use Ctrl-C to stop
+/home/ubuntu/.rvm/bin/rvmsudo: line 81:  5260 Killed                  sudo /usr/bin/env rvm_bin_path=/home/ubuntu/.rvm/bin rvm_version=1.29.12 (latest) RUBY_VERSION=ruby-2.7.5 GEM_HOME=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart GEM_PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart:/home/ubuntu/.rvm/gems/ruby-2.7.5@global rvm_path=/home/ubuntu/.rvm rvm_prefix=/home/ubuntu MY_RUBY_HOME=/home/ubuntu/.rvm/rubies/ruby-2.7.5 PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/bin:/home/ubuntu/.rvm/gems/ruby-2.7.5@global/bin:/home/ubuntu/.rvm/rubies/ruby-2.7.5/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin IRBRC=/home/ubuntu/.rvm/rubies/ruby-2.7.5/.irbrc rails server
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+[5622] Puma starting in cluster mode...
+[5622] * Puma version: 5.6.5 (ruby 2.7.5-p203) ("Birdie's Version")
+[5622] *  Min threads: 4
+[5622] *  Max threads: 16
+[5622] *  Environment: production
+[5622] *   Master PID: 5622
+[5622] *      Workers: 3
+[5622] *     Restarts: (✔) hot (✖) phased
+[5622] * Preloading application
+[5622] * Listening on unix:///tmp/puma.sock
+[5622] Use Ctrl-C to stop
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+Warning: the running version of Bundler (2.1.4) is older than the version that created the lockfile (2.4.7). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.4.7`.
+DEPRECATION WARNING: The factory_girl gem is deprecated. Please upgrade to factory_bot. See https://github.com/thoughtbot/factory_bot/blob/v4.9.0/UPGRADE_FROM_FACTORY_GIRL.md for further instructions. (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/application.rb:20)
+=> Booting Puma
+=> Rails 6.1.7.2 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+WARN DEPRECATION WARNING: Initialization autoloaded the constants ApplicationRecord, ErrorsHelper, ApplicationHelper, DeletePerson, Person::ToView, Person, Person::OmniauthService, Maintenance, and UUIDUtils.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationRecord, for example,
+the expected changes won't be reflected in that stale Class object.
+
+`config.autoloader` is set to `classic`. These autoloaded constants would have been unloaded if `config.autoloader` had been set to `:zeitwerk`.
+
+In order to autoload safely at boot time, please wrap your code in a reloader
+callback this way:
+
+    Rails.application.reloader.to_prepare do
+      # Autoload classes and modules needed at boot time here.
+    end
+
+That block runs when the application boots, and every time there is a reload.
+For historical reasons, it may run twice, so it has to be idempotent.
+
+Check the "Autoloading and Reloading Constants" guide to learn more about how
+Rails autoloads and reloads.
+ (called from <main> at /home/ubuntu/www/var/marketplace/telemart_uae/config/environment.rb:26)
+[1618] Puma starting in cluster mode...
+[1618] * Puma version: 5.6.5 (ruby 2.7.5-p203) ("Birdie's Version")
+[1618] *  Min threads: 4
+[1618] *  Max threads: 16
+[1618] *  Environment: production
+[1618] *   Master PID: 1618
+[1618] *      Workers: 3
+[1618] *     Restarts: (✔) hot (✖) phased
+[1618] * Preloading application
+[1618] * Listening on unix:///tmp/puma.sock
+[1618] Use Ctrl-C to stop
+/home/ubuntu/.rvm/bin/rvmsudo: line 81:  1616 Killed                  sudo /usr/bin/env rvm_ruby_string=ruby-2.7.5 rvm_bin_path=/home/ubuntu/.rvm/bin rvm_version=1.29.12 (latest) RUBY_VERSION=ruby-2.7.5 GEM_HOME=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart GEM_PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart:/home/ubuntu/.rvm/gems/ruby-2.7.5@global rvm_path=/home/ubuntu/.rvm rvm_prefix=/home/ubuntu MY_RUBY_HOME=/home/ubuntu/.rvm/rubies/ruby-2.7.5 PATH=/home/ubuntu/.rvm/gems/ruby-2.7.5@telemart/bin:/home/ubuntu/.rvm/gems/ruby-2.7.5@global/bin:/home/ubuntu/.rvm/rubies/ruby-2.7.5/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.nvm/versions/node/v10.15.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin IRBRC=/home/ubuntu/.rvm/rubies/ruby-2.7.5/.irbrc rvm_delete_flag=0 rails server

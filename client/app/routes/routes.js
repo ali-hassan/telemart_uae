@@ -3317,6 +3317,14 @@ export const logout_path = __jsr.r({"locale":{},"format":{}}, [2,[1,[2,[7,"/"],[
 
 /**
  * Generates rails route to
+ * /mail_view
+ * @param {object | undefined} options
+ * @returns {string} route path
+ */
+export const mail_preview_path = __jsr.r({}, [2,[7,"/"],[6,"mail_view"]]);
+
+/**
+ * Generates rails route to
  * (/:locale)/admin_old/communities/:id/menu_links(.:format)
  * @param {any} id
  * @param {object | undefined} options
@@ -4506,6 +4514,38 @@ export const rails_direct_uploads_path = __jsr.r({"format":{}}, [2,[7,"/"],[2,[6
  * @returns {string} route path
  */
 export const rails_disk_service_path = __jsr.r({"encoded_key":{"r":true},"filename":{"r":true},"format":{}}, [2,[7,"/"],[2,[6,"rails"],[2,[7,"/"],[2,[6,"active_storage"],[2,[7,"/"],[2,[6,"disk"],[2,[7,"/"],[2,[3,"encoded_key"],[2,[7,"/"],[2,[5,[3,"filename"]],[1,[2,[8,"."],[3,"format"]]]]]]]]]]]]]);
+
+/**
+ * Generates rails route to
+ * /rails/info(.:format)
+ * @param {object | undefined} options
+ * @returns {string} route path
+ */
+export const rails_info_path = __jsr.r({"format":{}}, [2,[7,"/"],[2,[6,"rails"],[2,[7,"/"],[2,[6,"info"],[1,[2,[8,"."],[3,"format"]]]]]]]);
+
+/**
+ * Generates rails route to
+ * /rails/info/properties(.:format)
+ * @param {object | undefined} options
+ * @returns {string} route path
+ */
+export const rails_info_properties_path = __jsr.r({"format":{}}, [2,[7,"/"],[2,[6,"rails"],[2,[7,"/"],[2,[6,"info"],[2,[7,"/"],[2,[6,"properties"],[1,[2,[8,"."],[3,"format"]]]]]]]]]);
+
+/**
+ * Generates rails route to
+ * /rails/info/routes(.:format)
+ * @param {object | undefined} options
+ * @returns {string} route path
+ */
+export const rails_info_routes_path = __jsr.r({"format":{}}, [2,[7,"/"],[2,[6,"rails"],[2,[7,"/"],[2,[6,"info"],[2,[7,"/"],[2,[6,"routes"],[1,[2,[8,"."],[3,"format"]]]]]]]]]);
+
+/**
+ * Generates rails route to
+ * /rails/mailers(.:format)
+ * @param {object | undefined} options
+ * @returns {string} route path
+ */
+export const rails_mailers_path = __jsr.r({"format":{}}, [2,[7,"/"],[2,[6,"rails"],[2,[7,"/"],[2,[6,"mailers"],[1,[2,[8,"."],[3,"format"]]]]]]]);
 
 /**
  * Generates rails route to
