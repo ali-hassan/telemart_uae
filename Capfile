@@ -29,13 +29,14 @@ require 'capistrano/rvm'
 require 'capistrano/bundler'
 require 'capistrano/ssh_doctor'
 
-require 'capistrano/rails/assets'
-require 'capistrano/rails/migrations'
+# require 'capistrano/rails/assets'
+# require 'capistrano/rails/migrations'
 require 'capistrano/puma'
-install_plugin Capistrano::Puma
+install_plugin Capistrano::Puma  # Default puma tasks
 require 'capistrano/npm'
 require 'thinking_sphinx/capistrano'
 install_plugin Capistrano::Puma::Daemon
+install_plugin Capistrano::Puma::Systemd
 # require "capistrano/rvm"
 # require "capistrano/rbenv"
 # require "capistrano/chruby"
