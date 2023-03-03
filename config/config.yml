@@ -15,10 +15,7 @@ development:
     smtp_email_port: 587
     smtp_email_domain: 'sendgrid.net'
     smtp_email_user_name: 'apikey'
-    smtp_email_password: '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' #'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' #'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'
-
-    #'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'
-    #'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'
+    smtp_email_password: ''
 
 
     sharetribe_mail_from_address: 'team@telemartuae.com' #"info@pdx.climate.action.hub"
